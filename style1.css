@@ -132,7 +132,6 @@ h1{
 }
 
 .btn-default {
-    border-radius:12px 0 12px 0;
 	background: #403152;
 	border:none;
 	color:#fff;
@@ -163,6 +162,12 @@ h1{
     justify-content: space-between;
     padding: 5% 2%;
     text-align: center;
+    flex-wrap: wrap;
+}
+
+#main2 artcile div {
+    display: flex;
+    justify-content: center;
 }
 
 #main2 .seul{
@@ -193,6 +198,7 @@ main a:hover{
 
 #main3 article {
     padding: 2% 2%;
+    text-align: center;
 }
 
 
@@ -231,7 +237,7 @@ a {
 }
 
 #main4 article .texte{
-    text-align : justi fy;
+    text-align : justify;
     padding: 2% 2%;
 }
 
@@ -243,6 +249,29 @@ a {
     background-size: cover;
 }
 */
+
+
+@media only screen and (max-width: 800px) {
+    .navbar-inverse{
+        display: none;
+    }
+    
+    .dropdown-toggle {
+        font-size: 125%;
+    }
+    
+
+}
+@media only screen and (min-width: 800px) {
+    .dropdown{
+        display: none;
+    }
+}
+    
+
+
+
+
 
 
 
