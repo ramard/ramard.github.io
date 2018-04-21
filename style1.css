@@ -260,6 +260,11 @@ a {
         font-size: 125%;
     }
     
+    #main4 img{
+        height: 30%;
+        width: 80%;
+    }
+    
 
 }
 @media only screen and (min-width: 800px) {
