@@ -260,9 +260,9 @@ a {
         font-size: 125%;
     }
     
-    #main4 img{
-        height: 30%;
-        width: 80%;
+    #main4 img, main iframex{
+        height: 30vh;
+        width: 80vw;
     }
     
 
