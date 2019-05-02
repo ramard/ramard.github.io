@@ -61,7 +61,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 60S%;
 }
 
 main h1, main h2{
@@ -165,9 +164,16 @@ h1{
     flex-wrap: wrap;
 }
 
-#main2 artcile div {
+#main2 article section{
     display: flex;
-    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+}
+
+#main2 article section img{
+    width: 100px !important;
+    height: 100px !important;
+    margin: 20%;
 }
 
 #main2 .seul{
@@ -194,6 +200,12 @@ main a:hover{
 #main2 .langues {
     display: flex;
     flex-direction: column;
+
+}
+
+#main2 .langues img{
+   margin: 20px 0;
+    
 }
 
 #main3 article {
@@ -233,12 +245,12 @@ a {
     font-size: 200%;
     display: flex;
     justify-content: center;
-    color: #403152;s
+    color: #403152;
 }
 
 #main4 article .texte{
     text-align : justify;
-    padding: 2% 2%;
+    padding : 2% 2%;
 }
 
 /**{
