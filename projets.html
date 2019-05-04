@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
     <link rel="stylesheet" type="text/css" href="style1.css" />
@@ -66,16 +67,45 @@
     <main id="main4">
 
         <h1 class="entoure">PROJETS</h1>
-        <article class="c2">
-            <h2>Site Internet | 2018 </h2>
-            <p>Création d'un site internet responsive </p>
-            <p>HTML5, CSS3, Bootstrap</p>
-            <span class="glyphicon glyphicon-chevron-down" id="chevron1"></span>
-            <div id="img1">
-                <img src="images/Capture_siteweb1.PNG" alt="projet ISN" title="projet ISN" height=55% width=80%/>
-                <img src="images/Capture_siteweb2.PNG" alt="projet ISN" title="projet ISN" height=55% width=80%/>
 
-                <p class="texte">C'est un projet que j'ai mené en groupe et qui m'a permis de mettre à disposition toutes les connaissances que j'avais en web à cette époque. Il m'a en effet poussé à développer mes connaissances en HTML5 et CSS3, mais aussi à commencer à apprendre les bases de jQuery, que j'ai développé par la suite en autodidacte. Il m'a également permis de mieux travailler en groupe et m'a appris l'importance de gérer son temps lors de plus gros projets comme celui-ci. </p>
+        <article class="c2">
+            <h2>Néocampus - Ecole de design Nantes Atlanqiue | En cours </h2>
+            <p>Environnnement numérique de travail à destination de l'équipe enseignante et des étudiants</p>
+            <p>Symfony, PHP, Javascript, Ajax....</p>
+            <span class="glyphicon glyphicon-chevron-down closed"></span>
+            <div class="content">
+                <p class="texte">Ce Campus virtuel à pour but de proposer de proposer un ensemble d'outils pour la scolarité des étudiants.
+                    En effet nous proposos des services comme l'agenda, l'accès à la messagerie, des ressources, des projets etc.. 
+                </p>
+            </div>
+        </article>
+
+        <article class="c1">
+            <h2> Pokedex| 2019</h2>
+            <p>Création d'un pokédex</p>
+            <p>CodeIgniter, PHP, SQL</p>
+            <span class="glyphicon glyphicon-chevron-down c1 closed"></span>
+            <div class="content">
+                <img src="images/isn_1.PNG" alt="projet ISN" title="projet ISN" height=60% width=60%/>
+                <img src="images/isn_2.PNG" alt="projet ISN" title="projet ISN" height=60% width=60%/>
+
+                <p class="texte">Ce projet informatique dans le cadre du DUT informatique avait pour but de nous faire découvrir
+                    le framework CodeIgniter tout en utilisant du PHP pour intéroger la base de données composés de pokémons.
+                    C'est un projet qui m'a beaucoup plus puisque j'adore le développement web et j'ai pû ici m'amuser sur le design du site
+                </p>
+            </div>
+        </article>
+
+        <article class="c2">
+            <h2>Carte de restauration interactive| 2018</h2>
+            <p>Création d'une carte de restauration intéractive/p>
+            <p>Java, Javafx</p>
+            <span class="glyphicon glyphicon-chevron-down closed" ></span>
+            <div class="content">
+                <img src="images/isn_1.PNG" alt="projet ISN" title="projet ISN" height=60% width=60%/>
+                <img src="images/isn_2.PNG" alt="projet ISN" title="projet ISN" height=60% width=60%/>
+
+                <p class="texte">Ce projet informatique dans le cadre du </p>
             </div>
         </article>
 
@@ -85,8 +115,8 @@
                 <h2>Web-Documentaire | 2017</h2>
                 <p>Interview d'un ingénieur en cyber-sécurité</p>
             </a>
-            <span class="glyphicon glyphicon-chevron-down c1" id="chevron2"></span>
-            <div id="img2">
+            <span class="glyphicon glyphicon-chevron-down c1 closed"></span>
+            <div class="content">
                 <a href="https://view.genial.ly/5a533fd96bb0ba1a6856797a/webdoc">
                 <img src="images/Capture_webDoc.PNG" alt="webDoc" title="webDoc" height=55% width=80% />
                     </a>
@@ -96,20 +126,6 @@
         </article>
 
 
-
-        <article class="c2">
-            <h2>Jeu de taupes | 2017</h2>
-            <p>Création d'un jeu de taupes en équipe</p>
-            <p>Java avec framework JISNtools</p>
-            <span class="glyphicon glyphicon-chevron-down" id="chevron3"></span>
-            <div id="img3">
-                <img src="images/isn_1.PNG" alt="projet ISN" title="projet ISN" height=60% width=60%/>
-                <img src="images/isn_2.PNG" alt="projet ISN" title="projet ISN" height=60% width=60%/>
-
-                <p class="texte">Ce projet informatique dans le cadre du Baccalauréat m'a permis de poser les bases de la programmation en JAVA. En effet, j'avais à l'époque peu de connaissances dans ce langage, mais je devais tout de même proposer un logiciel. J'ai donc dû apprendre avec le peu de documentations que j'avais en ma possession à programmer en JAVA un jeu qui fonctionne. Malgré un projet qui n'a pas été totalement abouti, cela m'a permis de créer mon premier "logiciel" et d'avoir à faire à des limites de temps. </p>
-            </div>
-        </article>
-
     </main>
 
 </body>
@@ -118,60 +134,39 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script>
-    $(function() {
+        $(function() {
 
-
-        var isOpen1 = false;
-
-        $("#img1").hide();
-
-        $("#chevron1").click(function() {
-
-            if (isOpen1) {
-                $("#img1").slideUp(600);
-                $(this).css("transform", "rotate(0deg)");
-                isOpen1 = false;
-            } else {
-                $("#img1").slideDown(600);
-                $(this).css("transform", "rotate(180deg)");
-                isOpen1 = true;
-
-            }
+            $(window).load(function(){
+                console.log($(".content"));
+                $(".content").hide();
+            });
+    
+            $(".glyphicon-chevron-down").click(function() {
+                var content = $(this).next(".content");
+                if ($(this).hasClass("closed")) 
+                {
+                    console.log("Le contenu est masqué, il faut l'afficher");
+                    $(this).css("transform", "rotate(180deg)");
+                    content.slideDown(600);
+                    $(this).addClass("opened");
+                    $(this).removeClass("closed");
+                } 
+                else if($(this).hasClass("opened"))
+                {
+                    console.log("Le contenu est affiché, il faut le masquer");
+                    $(this).css("transform", "rotate(0deg)");
+                    content.slideUp(600);
+                    $(this).addClass("closed");
+                }else{
+                    console.log("Il y a un probleme");
+                    console.log(content);
+                }
+            })
+    
+           
+            
+    
         })
-
-        var isOpen2 = false;
-
-        $("#img2").hide();
-
-        $("#chevron2").click(function() {
-            if (isOpen2) {
-                $("#img2").slideUp(600);
-                $(this).css("transform", "rotate(0deg)");
-                isOpen2 = false;
-            } else {
-                $("#img2").slideDown(600);
-                $(this).css("transform", "rotate(180deg)");
-                isOpen2 = true;
-            }
-        })
-
-
-        var isOpen3 = false;
-
-        $("#img3").hide();
-
-        $("#chevron3").click(function() {
-            if (isOpen3) {
-                $("#img3").slideUp(600);
-                $(this).css("transform", "rotate(0deg)");
-                isOpen3 = false;
-            } else {
-                $("#img3").slideDown(600);
-                $(this).css("transform", "rotate(180deg)");
-                isOpen3 = true;
-            }
-        })
-
-    })
-
-</script>
+    
+    </script>
+    
