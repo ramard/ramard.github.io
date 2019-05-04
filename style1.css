@@ -253,6 +253,9 @@ a {
     padding : 2% 2%;
 }
 
+.underline{
+    text-decoration: underline;
+}
 /**{
     background-image: url(images/parallaxe.png);
     background-attachment: fixed;
