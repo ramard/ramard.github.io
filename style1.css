@@ -256,6 +256,10 @@ a {
 .underline{
     text-decoration: underline;
 }
+
+#presentationText{
+    text-align: justify;
+}
 /**{
     background-image: url(images/parallaxe.png);
     background-attachment: fixed;
