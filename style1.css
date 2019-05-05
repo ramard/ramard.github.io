@@ -266,6 +266,11 @@ a {
 
 
 @media only screen and (max-width: 600px) {
+    main {
+        padding: 5% 2%;
+        width: 100vw;
+    }
+
     .navbar-inverse{
         display: none;
     }
@@ -285,10 +290,13 @@ a {
         height: 30%;
         width: 80%;
     }
+
+    
     
 
 }
 @media only screen and (min-width: 600px) {
+
     .dropdown{
         display: none;
     }
