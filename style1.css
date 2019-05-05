@@ -1,6 +1,7 @@
 body{
     font-family: Tahoma;
     background-color: rgb(217, 217, 217);
+    width: 100vw;
 }
 
 .navbar-inverse{
@@ -280,7 +281,7 @@ a {
         font-size: 125%;
     }
     
-    #main4 img, main iframex{
+    #main4 img{
         height: 30%;
         width: 80%;
     }
