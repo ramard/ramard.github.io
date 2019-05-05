@@ -1,11 +1,9 @@
 body{
     font-family: Tahoma;
     background-color: rgb(217, 217, 217);
-    width: 100vw;
 }
 
 .navbar-inverse{
-    background-color: white;
     opacity: 0.9;
     display: flex;
     flex-direction: row;
@@ -29,13 +27,8 @@ header{
 }
 
 .onglet{
-    height: 50px;
+    height: 100%;
 }
-
-.onglet:hover{
-    background-color: rgb(217, 217, 217);
-}
-
 
 .glyphicon{
     transition : 0.8s;
@@ -277,9 +270,16 @@ a {
         display: none;
     }
     
+
     .dropdown-toggle {
         font-size: 125%;
+        background-color: transparent;
     }
+
+    .dropdown-toggle .glyphicon{
+        color: #403152;
+    }
+
     
     #main4 img{
         height: 30%;
@@ -292,7 +292,10 @@ a {
     .dropdown{
         display: none;
     }
+
+
 }
+
     
 
 
