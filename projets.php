@@ -24,13 +24,13 @@
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li class="onglet"><a href="presentation.html">Présentation</a></li>
+                <li class="onglet"><a href="presentation.php">Présentation</a></li>
                 <li role="separator" class="divider"></li>
-                <li class="onglet"><a href="competences.html">Compétences</a></li>
+                <li class="onglet"><a href="competences.php">Compétences</a></li>
                 <li role="separator" class="divider"></li>
-                <li class="onglet"><a href="cursus.html">Cursus</a></li>
+                <li class="onglet"><a href="cursus.php">Cursus</a></li>
                 <li role="separator" class="divider"></li>
-                <li class="onglet"><a href="projets.html">Projets</a></li>
+                <li class="onglet"><a href="projets.php">Projets</a></li>
             </ul>
 
         </div>
@@ -39,22 +39,22 @@
 
             <ul class="nav navbar-nav">
                 <li class="onglet">
-                    <a href="presentation.html">
+                    <a href="presentation.php">
                         <p>Présentation</p>
                     </a>
                 </li>
                 <li class="onglet">
-                    <a href="competences.html">
+                    <a href="competences.php">
                         <p>Compétences</p>
                     </a>
                 </li>
                 <li class="onglet">
-                    <a href="cursus.html">
+                    <a href="cursus.php">
                         <p>Cursus</p>
                     </a>
                 </li>
                 <li class="onglet">
-                    <a href="projets.html">
+                    <a href="projets.php">
                         <p>Projets</p>
                     </a>
                 </li>

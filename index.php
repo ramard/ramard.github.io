@@ -16,7 +16,7 @@
     </section>
     <h1 class="temp">Bienvenue sur mon site web personnel</h1>
     <section class="temp">
-        <a id="linkPresentation" href="presentation.html"><button class="btn btn-default temp" href="presentation.html"> Qui suis-je ? </button></a>
+        <a id="linkPresentation" href="presentation.php"><button class="btn btn-default temp" href="presentation.html"> Qui suis-je ? </button></a>
     </section>
 
 </body>
