@@ -177,14 +177,6 @@ h1{
     margin-bottom: 15px ;
 }
 
-#main2 .seul{
-    justify-content: center;
-}
-
-#main2 .deux{
-    padding: 5% 20%; 
-}
-
 main a{
     color: inherit;
 }
@@ -201,7 +193,7 @@ main a:hover{
 #main2 .langues {
     display: flex;
     flex-direction: column;
-
+    margin: -10% 0;
 }
 
 #main2 .langues img{
