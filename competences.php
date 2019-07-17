@@ -65,7 +65,7 @@
             <p>CSS3</p>
         </section>
         <section>
-            <img src="images/php_logo.svg" alt="logo langage php" title="logo langage php"/>
+            <img src="images/logo-php.png" alt="logo langage php" title="logo langage php"/>
             <p>PHP</p>
         </section>
         <section>
