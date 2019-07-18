@@ -30,7 +30,7 @@ function incrementVisitors(PDO $bdd, $page){
 
         $setValue->execute(array(
             "page" => $page,
-            "nombre" => $nombre,
+            "nombre" => $nombre+1,
         ));
         $setValue->closeCursor();
     }

@@ -34,7 +34,7 @@ $pageProjets = getVistorsPageInformations($bdd, "projets");
 
     </article>
 
-    <a href=""
+    <a href="resetVisitorsNumber.php"><i class="glyphicon glyphicon-refresh"></i></a>
 </main>
 
 
