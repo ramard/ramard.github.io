@@ -40,3 +40,18 @@ function incrementVisitors(PDO $bdd, $page){
 
 }
 
+function getVistorsPageInformations(PDO $bdd, $page){
+    $getValue = $bdd->prepare("SELECT nombre from 3097417_siteperso.visiteurs where page = :page");
+    try {
+        $nombre = $getValue->execute(array(
+            "page" => $page,
+        ));
+        $getValue->closeCursor();
+
+        return $nombre;
+    }
+    catch (PDOException $e) {
+        return "error";
+    }
+
+}
