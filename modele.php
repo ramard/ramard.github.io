@@ -33,11 +33,9 @@ function incrementVisitors(PDO $bdd, $page){
             "nombre" => $nombre,
         ));
         $setValue->closeCursor();
-
-        echo "ca a fonctionné";
     }
     catch (PDOException $e) {
-        echo "ca n'a pas fonctionné";
+        /* On ne fait rien puisque cela doit être invisible pour l'utilisateur */
     }
 
 }
