@@ -53,5 +53,19 @@ function getVistorsPageInformations(PDO $bdd, $page){
     catch (PDOException $e) {
         return "error";
     }
+}
+
+function resetVisitorsNumber(PDO $bdd){
+    $setValue = $bdd->prepare("UPDATE 3097417_siteperso.visiteurs SET nombre = 0");
+    /* Lorsqu'il n'y a pas de clause WHERE il remet tous les champs à 0 */
+    try {
+        $setValue->execute();
+        $setValue->closeCursor();
+
+        return "reussi";
+    }
+    catch (PDOException $e) {
+        return "error";
+    }
 
 }
