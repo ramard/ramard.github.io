@@ -1,3 +1,9 @@
+<?php
+    include("modele.php");
+    $bdd = connexion();
+    incrementVisitors($bdd, "competences");
+?>
+
 <head>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

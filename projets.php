@@ -1,3 +1,9 @@
+<?php
+include("modele.php");
+$bdd = connexion();
+incrementVisitors($bdd, "projets");
+?>
+
 <head>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="style1.css"/>
